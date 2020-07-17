@@ -1,0 +1,523 @@
+
+  .panel hr,
+.bsd-table hr{
+    margin-top:0;
+    margin-bottom:15px;
+}
+.panel table{
+    width: 100%;
+}
+table.bsd-table{
+    width: auto;
+}
+.panel table .center,
+.bsd-table .center{
+    text-align: center
+}
+.panel table th,
+.bsd-table th{
+    text-align: center;
+    background-color: #2a394f !important;
+    color: #fff;
+
+}
+.bsd-table th{
+    text-align: left;
+    padding: 10px 15px;
+    white-space: nowrap;
+    font-size: 13px;
+}
+.panel thead tr:first-of-type th:not(:first-child),
+.bsd-table thead tr th:not(:first-child),
+#attendance-table table thead th{
+    border-left:1px solid #fff;
+}
+
+.panel tbody td,
+.bsd-table tbody td{
+    border-left: 1px solid  #c1cfdb;
+    border-right: 1px solid  #c1cfdb;
+    padding: 10px 15px !important;
+    vertical-align: baseline;
+    font-size: 13px;
+}
+.bsd-table .bsd-table-headers th{
+    font-size: 22px;
+}
+.bsd-table tbody td{
+    border-right:0;
+    white-space: nowrap;
+}
+.panel tbody tr:last-of-type,
+.bsd-table tbody tr:last-of-type{
+    border-bottom: 1px solid  #c1cfdb;
+}
+.panel tbody tr:not(.additional-row):nth-of-type(even),
+.bsd-table tbody tr:not(.additional-row):nth-of-type(even){
+    background-color: #f4f5f8;
+}
+.panel tbody tr:not(.additional-row):nth-of-type(odd),
+.bsd-table tbody tr:not(.additional-row):nth-of-type(odd){
+    background-color: #fff;
+}
+
+
+.table-column{
+    /*overflow: auto;*/
+}
+.dataTables_filter{
+    visibility: hidden;
+    display: none;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody{
+    border-bottom: 0 !important;
+}
+
+/* Styles for percentage bars */
+.bsd-progress-bar{
+height: 20px;
+width: 250px;
+float: left;
+margin-left: 15px;
+}
+.bsd-progress-bar .percentage{
+    float: left;
+}
+.bsd-progress-bar .bar-container{
+    height: 1.4em;
+    background-color: #c1cfdb;
+    float: right;
+    width: 80%;
+}
+.bsd-progress-bar .bar-fill{
+     height: 100%;
+     background-color: #7aabe1;
+}
+table .badge {
+  background-color: #709ed1 !important;
+  font-size: 11px !important;
+  color: #fff !important;
+  padding: 4px !important;
+}
+
+.table-loading{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+    margin: 0 15px;
+    font-size: 36px;
+    display: none;
+    text-align:center;
+    padding-top: 150px;
+}
+.table-column.loading{
+    pointer-events: none;
+}
+
+/* Datatables fixes */
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting{
+    background-position: right 15px bottom 50% !important;
+}
+#dropdownMenu1{
+    color: #7aabe1;
+}
+#df-table{
+    margin-bottom: 30px;
+    margin-top: 50px !important;
+}
+#df-table img{
+    border-radius: 100px;
+    margin-right: 10px;
+    height: 35px;
+    width: 35px;
+}
+.table-column{
+
+}
+.dataTables_scrollHeadInner{
+    padding-left: 0 !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+
+border-bottom: 1px solid #f4f5f8 !important;
+}
+.df-search{
+    float:right;
+    margin-right: 15px;
+}
+.df-search > * + *{
+    margin-left: 10px;
+}
+.hide-graph{
+    cursor: pointer;
+    color: #7aabe1;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    background-color: #f4f5f8;
+    text-align: center;
+    border: 1px solid #c1cfdb;
+}
+#df-info{
+    color: #7aabe1;
+}
+#df-updated-on{
+    color: #919cad;
+}
+#df-info{
+    position:relative;
+    top: 55px;
+}
+#df-info .student-filter{
+    font-style: normal;
+    font-weight: 700;
+}
+.fixed-accordion{
+    position: absolute !important;
+    display: inline;
+    z-index: 20;
+    width: 150px;
+}
+#table-toggle{
+    display: inline-block;
+    width: 151px;
+}
+#df-absences-distribuiton-accordion,
+#df-tardies-distribuiton-accordion{
+    z-index: 19;
+}
+#df-graph .panel-body ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+#df-graph .panel-default > .panel-heading {
+    background-color: #fff !important;
+    text-transform: initial;
+}
+#df-graph .panel-default > .panel-heading h3{
+     color: #7aabe1 !important;
+}
+#df-graph .panel-body li{
+    padding: 3px 5px;
+    cursor: pointer;
+}
+#df-graph .panel-body li.selected{
+    color: #7aabe1;
+}
+#df-graph .panel-body li:hover{
+    background-color: #eee;
+}
+.row div:first-of-type > .df-wrapper{
+    border-left: 1px solid #c1cfdb;
+}
+.row div:last-of-type > .df-wrapper{
+    border-right: 1px solid #c1cfdb;
+    padding-left: 0px !important;
+}
+.df-wrapper{
+     background-color: #fff;
+
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 350px;
+}
+.df-graph-toggle{
+    border: 1px solid #c1cfdb;
+    padding: 1px;
+    width: 150px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.df-graph-toggle > div{
+    width: 73px;
+    display: block;
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+.df-graph-toggle > div.active{
+    color: #fff;
+    background-color: #5dd1bd;
+}
+.df-graph-toggle > div:not(.active){
+    cursor: pointer;
+}
+
+.graph-legend{
+    margin-top: 30px;
+}
+
+.graph-legend ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.graph-legend li{
+    cursor: pointer;
+}
+.graph-legend span{
+    margin-right: 10px;
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+
+}
+.grade-badge{
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.grade-a{
+    background-color: #63c3d7;
+}
+.grade-b{
+    background-color: #5dd1bd;
+}
+.grade-c{
+    background-color: #9cd5ac;
+}
+.grade-d{
+    background-color: #faa087;
+}
+.grade-f{
+    background-color: #ff5e5e;
+}
+.graph-legend span.d-chart-color{
+    background-color: #faa087;
+    color: #faa087;
+}
+.graph-legend span.f-chart-color{
+    background-color:#ff5e5e;
+    color: #ff5e5e;
+}
+.graph-legend span.disabled{
+    background-color: transparent;
+    border: 2px solid currentColor;
+}
+#time-number-period-section,
+#percentage-time-period-section{
+    z-index: 300;
+}
+/*.hide-graph{
+    background-color: #f4f5f8;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #c1cfdb;
+}*/
+
+#df-table .fancy-search{
+    width: 200px;
+    display:inline-block;
+}
+
+/* this is the only way to position things around those fake dropdown/accordions... */
+.fixed-accordion-h3-offset{
+    margin-top: 65px;
+}
+#df-time-period-accordion{
+    z-index: 300;
+}
+.fixar{
+    display: inline-block !important;
+    width: 300:
+}
+.fixar .panel-collapse{
+    display: inline;
+    position: absolute;
+    z-index: 300;
+    background-color: #fff !important;
+    border: 0;
+}
+.fixar i.fa-angle-down,
+.fixar i.fa-angle-up{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 13px;
+    color: #919cad;
+    font-weight: 400;
+}
+/*D3 styles*/
+.axis path,
+.axis line
+{
+    fill: none;
+    stroke: #c1cfdb;
+    shape-rendering: crispEdges;
+}
+text,
+.axis text{
+   fill: #c1cfdb;
+}
+.y.axis path {
+    display: none;
+}
+.x.axis line,
+.x.axis path {
+    display: none;
+}
+.tooltip {
+    position: absolute;
+
+
+    font: 10px sans-serif;
+
+    border: solid 1px #c1cfdb;
+    pointer-events: none;
+    /*box-shadow:0,1px,5px,0px,rgba(0,0,0,0.1);
+        box shadow from design is in wrong format, fix*/
+
+}
+.tooltip th{
+    color: #2a394f;
+    background-color: #f4f5f8;
+    border-bottom: 1px solid #d7dfe4;
+    padding: 10px;
+}
+.tooltip tr:not(:first-of-type){
+    background-color: #fff;
+}
+.tooltip tr:nth-of-type(2) td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.tooltip tr:nth-of-type(3) td{
+    padding-bottom: 5px;
+}
+.tooltip tr:nth-of-type(2) td:nth-child(1),
+.tooltip tr:nth-of-type(3) td:nth-child(1){
+    padding-left: 10px;
+}
+.tooltip tr:nth-of-type(2) td:nth-child(2),
+.tooltip tr:nth-of-type(3) td:nth-child(2){
+    padding-right: 10px;
+    color: #5dd1bd;
+    text-align:right;
+
+}
+.tooltip tr:nth-of-type(3) td:nth-child(2){
+    color: #709ed1;
+
+}
+.tooltip::before{
+
+position: absolute;
+  bottom: -7px;
+  left: 55px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-top: 7px solid #CCC;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+.tooltip::after {
+  position: absolute;
+  bottom: -6px;
+  left: 56px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-top: 6px solid white;
+  border-left: 6px solid transparent;
+  content: '';
+}
+table .badge{
+    background-color: #709ed1;
+    font-size: 11px;
+    color: #fff;
+    padding: 4px;
+}
+.badge + .badge{
+    margin-left: 7px;
+}
+.bsd-table .dataTables_empty{
+    text-align: left !important;
+}
+.bsd-table .dataTables_empty span{
+    width: 500px;
+    display: inline-block;
+}
+
+.legend-disabled{
+      cursor: wait;
+}
+.legend-disabled li{
+    pointer-events: none;
+
+}
+.table-loading{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 50;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0 15px;
+    font-size: 90px;
+    display: none;
+}
+.table-loading i{
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-left: 535px;
+}
+.table-column.loading{
+    pointer-events: none;
+}
+.first-time-marker{
+    height: 9px;
+    width: 9px;
+    display: inline-block;
+    border-radius: 10px;
+    vertical-align: baseline;
+}
+.first-time-marker:not(.placeholder){
+    background-color: #7aabe1;
+}
+th .first-time-marker{
+    margin-right: 3px;
+}
+td .first-time-marker{
+    margin-left: 15px;
+}
+td i.fa-flag{
+
+}
+.medium-risk,
+.high-risk{
+    color: #ffc86b;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.high-risk{
+    color: #ff5e5e;
+}
+
+.no-risk,
+.additional-row{
+    display: none;
+}
+.additional-row{
+
+}
